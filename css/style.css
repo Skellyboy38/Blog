@@ -4,7 +4,7 @@
 }
 
 body {
-	
+	background-color: #000000;
 }
 
 #wrapper {
@@ -20,50 +20,45 @@ body {
 #icons {
 }
 
-#header {
-	z-index: -1;
-	background-color: #3300CC;
-}
-
 #headerImage {
 	position: absolute;
 	z-index: 0;
-	width: 1000;
-	height: 50;
+	width: 1000px;
+	height: 50px;
 }
 
 #homeIcon {
 	position: absolute;
 	top: 5px;
-	left: 41px;
+	left: 10px;
 	z-index: 1;
 }
 
 #aboutIcon {
 	position: absolute;
 	top: 5px;
-	left: 232px;
+	left: 170px;
 	z-index: 1;
 }
 
 #picturesIcon {
 	position: absolute;
 	top: 5px;
-	left: 423px;
+	left: 330px;
 	z-index: 1;
 }
 
 #videosIcon {
 	position: absolute;
 	top: 5px;
-	left: 614px;
+	left: 490px;
 	z-index: 1;
 }
 
 #blogIcon {
 	position: absolute;
 	top: 5px;
-	left: 805px;
+	left: 650px;
 	z-index: 1;
 }
 
@@ -73,4 +68,28 @@ body {
 	z-index: 1;
 }
 
+form#data {
+	width: 1000px;
+	height: 1000px;
+	position: absolute;
+	top: 250px;
+	background-color: #FFFFFF;
+}
+
+form#side {
+	width: 290px;
+	height: 990px;
+	position: absolute;
+	top: 255px;
+	left: 705px;
+	background-color: #330033;
+}
+
+#footerImage {
+	position: absolute;
+	z-index: 0;
+	width: 1000px;
+	height: 100px;
+	top: 1250px;
+}
 

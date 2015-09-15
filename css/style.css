@@ -1,0 +1,76 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	
+}
+
+#wrapper {
+	position: absolute;
+	background: #3300CC;
+	max-width: 1000px;
+	min-width: 600px;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
+
+#icons {
+}
+
+#header {
+	z-index: -1;
+	background-color: #3300CC;
+}
+
+#headerImage {
+	position: absolute;
+	z-index: 0;
+	width: 1000;
+	height: 50;
+}
+
+#homeIcon {
+	position: absolute;
+	top: 5px;
+	left: 41px;
+	z-index: 1;
+}
+
+#aboutIcon {
+	position: absolute;
+	top: 5px;
+	left: 232px;
+	z-index: 1;
+}
+
+#picturesIcon {
+	position: absolute;
+	top: 5px;
+	left: 423px;
+	z-index: 1;
+}
+
+#videosIcon {
+	position: absolute;
+	top: 5px;
+	left: 614px;
+	z-index: 1;
+}
+
+#blogIcon {
+	position: absolute;
+	top: 5px;
+	left: 805px;
+	z-index: 1;
+}
+
+#banner {
+	position: absolute;
+	top: 50px;
+	z-index: 1;
+}
+
+

@@ -68,6 +68,15 @@ body {
 	z-index: 1;
 }
 
+#homeBanner, #aboutBanner, #picturesBanner, #videosBanner, #blogBanner {
+	position: absolute;
+	top: 55px;
+	left: 5px;
+	z-index: 1;
+	height: 190px;
+	width: 990px;
+}
+
 form#data {
 	width: 1000px;
 	height: 1000px;
@@ -85,11 +94,28 @@ form#side {
 	background-color: #330033;
 }
 
-#footerImage {
+#bannerHome, #bannerPictures, #bannerVideos, #bannerBlog, #bannerAbout {
+	width: 690px;
+	height: 100px;
+	position: absolute;
+	top: 255px;
+	left: 5px;
+}
+
+#footer {
 	position: absolute;
 	z-index: 0;
 	width: 1000px;
 	height: 100px;
 	top: 1250px;
+}
+
+#footerImage {
+	position: absolute;
+	z-index: 0;
+	width: 990px;
+	height: 90px;
+	top: 1255px;
+	left: 5px;
 }
 

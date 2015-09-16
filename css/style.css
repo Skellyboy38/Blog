@@ -4,7 +4,9 @@
 }
 
 body {
-	background-color: #000000;
+	background: url("../images/backgrounds/painting.jpg");
+	background-height: 100%;
+	background-width: 100%;
 }
 
 #wrapper {
@@ -82,7 +84,7 @@ form#data {
 	height: 1000px;
 	position: absolute;
 	top: 250px;
-	background-color: #FFFFFF;
+	background-color: rgba(255,255,255,0.5);
 }
 
 form#side {
@@ -91,7 +93,7 @@ form#side {
 	position: absolute;
 	top: 255px;
 	left: 705px;
-	background-color: #330033;
+	background-color: rgba(0,102,102,0.5);
 }
 
 #bannerHome, #bannerPictures, #bannerVideos, #bannerBlog, #bannerAbout {
@@ -100,6 +102,7 @@ form#side {
 	position: absolute;
 	top: 255px;
 	left: 5px;
+	background-color: rgba(51,0,102,0.2);
 }
 
 #footer {
